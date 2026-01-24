@@ -76,6 +76,7 @@ To get started with your own portfolio website:
 5. Open [http://localhost:3000](http://localhost:3000) in your web browser to see the website.
 
 ## 🎨 Customization
+Edit this
 
 Easily personalize your portfolio using the configuration files below:
 
