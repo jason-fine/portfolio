@@ -2,6 +2,8 @@
 
 # Next.js 16 Developer Portfolio Template
 
+<!-- comment -->
+
 A modern, responsive, and SEO-optimized **Next.js 16 portfolio template** designed for developers, designers, and professionals. This open-source project helps you showcase your skills, experience, and projects with an elegant interface that stands out. Built with server-side rendering, TypeScript, and the latest web standards for optimal performance.
 
 ## ✨ Key Features
