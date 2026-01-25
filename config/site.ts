@@ -11,11 +11,11 @@ export const siteConfig = {
     templateRepo: "https://github.com/namanbarkiya/minimal-next-portfolio",
   },
   ogImage:
-    "https://res.cloudinary.com/dvt5vkfwz/image/upload/v1767384721/naman_portfolio_og_image.png",
+    "https://res.cloudinary.com/deeptfndf/image/upload/v1769305923/profile_image_zag2jg.png",
   iconIco:
-    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
+    "https://res.cloudinary.com/deeptfndf/image/upload/v1769306175/icon_sselmh.png",
   logoIcon:
-    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
+    "https://res.cloudinary.com/deeptfndf/image/upload/v1769306166/logo_eufl39.png",
   keywords: [
     "Naman Barkiya",
     "Applied AI Engineer",
