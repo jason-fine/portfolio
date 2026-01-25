@@ -100,5 +100,26 @@ export const experiences: ExperienceInterface[] = [
     skills: ["Python", "SQL", "React", "AWS"],
     companyUrl: "https://www.suez.com",
     logo: "/experience/suez-logo.png",
+  },
+  {
+    id: "hr-che",
+    position: "Chemical Engineer",
+    company: "Hydro Recovery LP",
+    location: "State College, PA",
+    startDate: new Date("2017-05-01"),
+    endDate: new Date("2018-09-30"),
+    description: [
+      "Developed mass and energy balance models to predict and simulate performance of new evaporative technologies, supporting design and optimization decisions.",
+      "Engineered a rapid radioactivity measurement process, cutting the analysis cycle by ~99% (30 days → 1 hour) while maintaining compliance and measurement accuracy.",
+      "Developed visualizations and reports from client process data, presenting complex operational metrics in clear, actionable formats.",
+    ],
+    achievements: [
+      "Developed mass and energy balance models to predict and simulate performance of new evaporative technologies, supporting design and optimization decisions.",
+      "Engineered a rapid radioactivity measurement process, cutting the analysis cycle by ~99% (30 days → 1 hour) while maintaining compliance and measurement accuracy.",
+      "Developed visualizations and reports from client process data, presenting complex operational metrics in clear, actionable formats.",
+    ],
+    skills: ["Python", "SQL", "React", "AWS"],
+    companyUrl: "https://www.suez.com",
+    logo: "/experience/suez-logo.png",
   }
 ];
