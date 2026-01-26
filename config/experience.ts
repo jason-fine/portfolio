@@ -118,8 +118,8 @@ export const experiences: ExperienceInterface[] = [
       "Engineered a rapid radioactivity measurement process, cutting the analysis cycle by ~99% (30 days → 1 hour) while maintaining compliance and measurement accuracy.",
       "Developed visualizations and reports from client process data, presenting complex operational metrics in clear, actionable formats.",
     ],
-    skills: ["Python", "SQL", "React", "AWS"],
-    companyUrl: "https://www.suez.com",
-    logo: "/experience/suez-logo.png",
+    skills: ["Python"],
+    companyUrl: "https://www.linkedin.com/in/hydro-recovery-lp-78611421",
+    logo: "/experience/hr-logo.png",
   }
 ];
