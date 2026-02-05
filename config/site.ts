@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Jason Fine - Applied AI Engineer",
+  name: "Jason Fine - Software Engineer",
   authorName: "Jason Fine",
   username: "jasonfine",
   description:
-    "Jason Fine - Applied AI Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions in software development and AI.",
+    "Jason Fine - Software Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions in software development.",
   url: "https://jasonfine.dev",
   links: {
     twitter: "https://x.com/jasonfine",
@@ -18,9 +18,8 @@ export const siteConfig = {
     "https://res.cloudinary.com/deeptfndf/image/upload/v1769306175/icon_sselmh.png",
   keywords: [
     "Jason Fine",
-    "Applied AI Engineer",
-    "AI Engineer",
     "Software Engineer",
+    "AI Engineer",
     "Full Stack Developer",
     "Machine Learning",
     "Data Engineering",
