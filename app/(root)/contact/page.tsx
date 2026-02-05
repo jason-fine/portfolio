@@ -19,6 +19,7 @@ export default function ContactPage() {
         <div className="w-full max-w-md">
           <ContactForm />
         </div>
+        
       </div>
     </PageContainer>
   );
