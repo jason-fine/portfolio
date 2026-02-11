@@ -28,6 +28,46 @@ export interface ProjectInterface {
 }
 
 export const Projects: ProjectInterface[] = [
+  {
+    id: "wordle-clone",
+    companyName: "Wordle Clone",
+    type: "Personal",
+    category: ["Web Dev", "Frontend", "UI/UX"],
+    shortDescription:
+      "A clone of the popular word-guessing game Wordle with similar gameplay and features.",
+    websiteLink: "https://wordle-clone-sepia.vercel.app",
+    githubLink: "",
+    techStack: [
+      "React",
+      "Javascript",
+      "HTML 5",
+      "CSS 3",
+      "Vercel",
+    ],
+    startDate: new Date("2025-10-01"),
+    endDate: new Date("2025-11-15"),
+    companyLogoImg: "/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Wordle Game",
+        description:
+          "A fully functional Wordle clone where players guess a 5-letter word within six attempts. Features color-coded feedback and a virtual keyboard.",
+        imgArr: ["/profile-img.jpg"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Created a responsive web-based clone of the popular word-guessing game Wordle, where players have six attempts to guess a five-letter word.",
+        "Implemented core game mechanics including letter validation, color-coded feedback, and a virtual keyboard that updates based on guessed letters.",
+      ],
+      bullets: [
+        "Built with React for efficient state management and component-based architecture",
+        "Designed responsive UI that works across desktop and mobile devices",
+        "Implemented word validation and game logic similar to the original Wordle",
+        "Deployed on Vercel for reliable hosting and performance",
+      ],
+    },
+  },
   // {
   //   id: "",
   //   companyName: "",
@@ -67,7 +107,6 @@ export const Projects: ProjectInterface[] = [
   //     ],
   //   },
   // },
-  
 ];
 
 export const featuredProjects = Projects.slice(0, 3);
