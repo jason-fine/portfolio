@@ -20,12 +20,12 @@ export default function ContributionCard({
               className="absolute bottom-3 right-3 border bg-background rounded-full p-2 cursor-pointer text-muted-foreground "
             />
             <div className="flex h-[170px] flex-col justify-between rounded-md p-6 sm:h-[170px]">
-              <div className="flex flex-row justify-between">
-                <h3 className="font-bold flex space-x-2 items-center">
+              <div className="flex flex-row justify-between w-full">
+                <h3 className="font-bold flex space-x-2 items-center max-w-[80%] overflow-hidden">
                   <Icons.gitRepoIcon size={20} className="flex-shrink-0" />
                   <span className="truncate">{contribution.repo}</span>
                 </h3>
-                <Icons.gitBranch size={20} />
+                <Icons.gitBranch size={20} className="flex-shrink-0" />
               </div>
               <div className="space-y-4 overflow-hidden">
                 <p className="text-sm text-muted-foreground line-clamp-3 overflow-ellipsis">
