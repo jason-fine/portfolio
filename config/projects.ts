@@ -38,7 +38,6 @@ export const Projects: ProjectInterface[] = [
     websiteLink: "https://wordle-clone-sepia.vercel.app",
     githubLink: "",
     techStack: [
-      "React",
       "Javascript",
       "HTML 5",
       "CSS 3",
@@ -51,17 +50,17 @@ export const Projects: ProjectInterface[] = [
       {
         title: "Wordle Game",
         description:
-          "A fully functional Wordle clone where players guess a 5-letter word within six attempts. Features color-coded feedback and a virtual keyboard.",
-        imgArr: ["/profile-img.jpg"],
+          "A fully functional Wordle clone where players guess a 5-letter word within eight attempts. Features color-coded feedback and a virtual keyboard.",
+        imgArr: ["/projects/wordle/wordle_screenshot.png"],
       },
     ],
     descriptionDetails: {
       paragraphs: [
-        "Created a responsive web-based clone of the popular word-guessing game Wordle, where players have six attempts to guess a five-letter word.",
+        "Created a responsive web-based clone of the popular word-guessing game Wordle, where players have eight attempts to guess a five-letter word.",
         "Implemented core game mechanics including letter validation, color-coded feedback, and a virtual keyboard that updates based on guessed letters.",
       ],
       bullets: [
-        "Built with React for efficient state management and component-based architecture",
+        "Built with Javascript and HTML",
         "Designed responsive UI that works across desktop and mobile devices",
         "Implemented word validation and game logic similar to the original Wordle",
         "Deployed on Vercel for reliable hosting and performance",
