@@ -105,22 +105,10 @@ export default function IndexPage() {
 
           <div className="flex flex-col mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
             <AnimatedText delay={0.6}>
-              <a
-                href="/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={cn(buttonVariants({ size: "lg" }))}
-                aria-label="View resume"
-              >
-                <Icons.post className="w-4 h-4 mr-2" /> Resume
-              </a>
-            </AnimatedText>
-
-            <AnimatedText delay={0.8}>
               <Link
                 href="/contact"
                 rel="noreferrer"
-                className={cn(buttonVariants({ variant: "outline", size: "lg" }))}
+                className={cn(buttonVariants({ size: "lg" }))}
                 aria-label="Contact Jason Fine"
               >
                 <Icons.contact className="w-4 h-4 mr-2" /> Contact

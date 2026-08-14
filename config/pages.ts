@@ -55,14 +55,6 @@ export const pagesConfig: PagesConfig = {
         "Jason Fine's open-source contributions and community involvement.",
     },
   },
-  resume: {
-    title: "Resume",
-    description: "Jason Fine's resume.",
-    metadata: {
-      title: "Resume",
-      description: "Jason Fine's resume.",
-    },
-  },
   experience: {
     title: "Experience",
     description: "Professional journey and career timeline.",
